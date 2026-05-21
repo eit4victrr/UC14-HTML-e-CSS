@@ -1,3 +1,84 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+  background-color: #c9d8ee;
+}
+#servicos{font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;}
+
+.paciente{font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;}
+
+.depoimento{font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;}
+.servico {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.disponiveis {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.Aviso {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#medicos{font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;}
+
+
+  #aviso{font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;}
+#cor {
+  background-color: #6F92C9;
+  border-radius: 15px;
+}
+
+#servicos {
+  width: 500px;
+  height: 250px;
+  background-color: white;
+  border-radius: 15px;
+
+}
+
+#medicos {
+  width: 500px;
+  height: 250px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.servico {
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+}
+
+#aviso {
+  width: 500px;
+  height: 150px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+#depoimento {
+  width: 500px;
+  height: 180px;
+  background-color: white;
+  border-radius: 15px;
 
 }
