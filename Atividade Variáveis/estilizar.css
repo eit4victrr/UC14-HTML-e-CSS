@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ultra&display=swap');
+
+:root {
+    --cor-primaria: rgb(151, 0, 0);
+    --cor-secundaria: cyan;
+    --cor-fundo: #484D50;
+    --cor-texto: black;
+    --cor-branca: rgb(0, 0, 0);
+
+    --fonte-principal: Arial, sans-serif;
+
+    --borda-radius: 10px;
+    --sombra: 0 4px 10px rgb(157, 0, 0);
+}
+
+#fonte {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    gap:20px
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+
+
+    /*display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh; */
+}
+
+.anuncios-gerais {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.anuncios {
+    background-color: var(--cor-branca);
+    padding: 30px;
+    border-radius: var(--borda-radius);
+    box-shadow: var(--sombra);
+    text-align: center;
+    width: 300px;
+
+
+}
+
+h1 {
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+p {
+    color: var(--cor-primaria)
+}
+
+button {
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--borda-radius);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--cor-secundaria);
+    opacity: 0, 8;
+}
