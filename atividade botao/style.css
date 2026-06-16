@@ -1,0 +1,23 @@
+@keyframes tremedeira {
+    0%, 100% {transform: translateX(0)}
+    10% {transform: translatex(-8px);}
+    30% {transform: translateX(8px);}
+    50% {transform: translateX(-6px);}
+    70% {transform: translateX(6px);}
+    90% {transform: translateX(-4px);}
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    size: 250px;
+}
+
+   .botao:active{ animation: tremedeira 0.5s ease-in-out;
+}
