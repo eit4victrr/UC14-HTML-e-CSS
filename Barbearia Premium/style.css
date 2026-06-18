@@ -1,0 +1,56 @@
+.banner-principal {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+}
+
+    .banner-principal{
+    width: 100%;
+    display: block;
+    
+}
+
+.circulo {
+     width: 150px;
+    height: 150px;
+    background-color: #8f8f8f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    padding-left: 20px; 
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+
+
+
+/*Cards de serviços*/
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+    align-items: center;
+    color: rgb(188, 203, 255), 224, 224);
+}
+
+
+
